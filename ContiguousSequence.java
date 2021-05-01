@@ -1,3 +1,5 @@
+package for_CTCI;
+
 /** Find the contiguous sequence with the largest sum given
  * an array of integers. Return the sum.
  * eg
@@ -36,12 +38,12 @@ public class ContiguousSequence {
         return maxSum;
     }
 
-//    public static void main(String[] args){
-//        int[] myArr = {2, -8, 3, -2, 4, -10, 1, 1, 1, 1, 1, 1};
-//        int[] myArr1 = {Integer.MIN_VALUE};
-//        int[] myArr2 = {2, -8, -3, -2, 4, 10, -9, 9, 0, 2, -2, 8};
-//        System.out.println(maxSumOfSeq(myArr));
-//        System.out.println(maxSumOfSeq(myArr1));
-//        System.out.println(maxSumOfSeq(myArr2));
-//    }
+    public static void main(String[] args){
+        int[] myArr = {2, -8, 3, -2, 4, -10, 1, 1, 1, 1, 1, 1};
+        int[] myArr1 = {Integer.MIN_VALUE};
+        int[] myArr2 = {2, -8, -3, -2, 4, 10, -9, 9, 0, 2, -2, 8};
+        System.out.println(maxSumOfSeq(myArr));
+        System.out.println(maxSumOfSeq(myArr1));
+        System.out.println(maxSumOfSeq(myArr2));
+    }
 }

@@ -1,3 +1,5 @@
+package for_CTCI;
+
 import java.util.HashMap;
 import java.util.Locale;
 
@@ -30,10 +32,11 @@ public class WordFrequencies {
         return 0;
     }
 
-//    public static void main(String[] args){
-//        String[] book = {"cabra", "q", "cabra", " p", "p"};
-//        String[] book1 = {"cabra", "q", "cabra", " p", "p", "te", " cafe", " te"};
-//        System.out.println(wordCount(book, "cabra"));
-//        System.out.println(wordCount(book1, "q"));
-//    }
+    public static void main(String[] args){
+        String[] book = {"cabra", "q", "cabra", " p", "p"};
+        String[] book1 = {"cabra", "q", "cabra", " p", "p", "te", " cafe", " te"};
+        System.out.println(wordCount(book, "cabra"));
+        System.out.println(wordCount(book1, "q"));
+    }
 }
+
