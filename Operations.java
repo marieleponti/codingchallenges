@@ -52,16 +52,16 @@ public class Operations {
         return result;
     }
 
-    public static void main(String[] args){
-        System.out.println(minus(16, 4));
-        System.out.println(minus(-16, 4));
-        System.out.println(minus(-19, -4));
-        System.out.println(multiply(16, 4));
-        System.out.println(multiply(-16, 4));
-        System.out.println(multiply(-19, -4));
-        System.out.println(divide(16, 4));
-        System.out.println(divide(-16, 4));
-        System.out.println(divide(-19, -4));
-    }
+//    public static void main(String[] args){
+//        System.out.println(minus(16, 4));
+//        System.out.println(minus(-16, 4));
+//        System.out.println(minus(-19, -4));
+//        System.out.println(multiply(16, 4));
+//        System.out.println(multiply(-16, 4));
+//        System.out.println(multiply(-19, -4));
+//        System.out.println(divide(16, 4));
+//        System.out.println(divide(-16, 4));
+//        System.out.println(divide(-19, -4));
+//    }
 }
 
