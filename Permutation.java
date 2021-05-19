@@ -23,12 +23,11 @@ public class Permutation {
         return true;
     }
 
-    public static void main(String[] args){
-        System.out.println("empty strings: " + permutation("", ""));
-        System.out.println("empty string, x: " + permutation("", "x"));
-        System.out.println("llama, amal: " + permutation("llama", "amal"));
-        System.out.println("llama, amall: " + permutation("llama", "amall"));
-        System.out.println("llama, amalx: " + permutation("llama", "amalx"));
-
-    }
+//    public static void main(String[] args){
+//        System.out.println("empty strings: " + permutation("", ""));
+//        System.out.println("empty string, x: " + permutation("", "x"));
+//        System.out.println("llama, amal: " + permutation("llama", "amal"));
+//        System.out.println("llama, amall: " + permutation("llama", "amall"));
+//        System.out.println("llama, amalx: " + permutation("llama", "amalx"));
+//    }
 }
