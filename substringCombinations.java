@@ -42,8 +42,8 @@ public class substringCombinations {
         return (!ab.equals(bc) && !bc.equals(ca));
     }
 
-    public static void main(String[] args){
-        System.out.println(substringDivs("xyzxyz"));
-        System.out.println(substringDivs("101010"));
-    }
+//    public static void main(String[] args){
+//        System.out.println(substringDivs("xyzxyz"));
+//        System.out.println(substringDivs("101010"));
+//    }
 }
